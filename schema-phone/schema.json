@@ -1,0 +1,30 @@
+{
+	"type": "relayreader-schema-phone",
+	"label": "stores phone numbers",
+	"data": [
+		{
+			"required": true,
+			"label": "phone number",
+			"type": "string"
+		},
+		{
+			"required": false,
+			"label": "type of number",
+			"type": "enum",
+			"enum": [
+				"home",
+				"work",
+				"mobile",
+				"voip",
+				"google voice",
+				"fax",
+				"main",
+				"pager",
+				"home fax",
+				"work fax",
+				"other",
+				"custom"
+			]
+		}
+	]
+}

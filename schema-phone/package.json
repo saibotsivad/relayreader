@@ -1,0 +1,17 @@
+{
+  "name": "relayreader-schema-phone",
+  "version": "0.0.3",
+  "main": "./schema.json",
+  "author": "saibotsivad <accounts@davistobias.com> (http://tobiaslabs.com)",
+  "description": "relayreader schema describing a normal phone number",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiaslabs/relayreader-schema-phone.git"
+  },
+  "devDependencies": {
+    "relayreader-schema-validator": "~0.0.3"
+  },
+  "scripts": {
+    "test": "relayreader-schema-validator schema.json"
+  }
+}
